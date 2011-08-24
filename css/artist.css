@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+/*
+ * Project:     TokPanel
+ * Description: Talk show format web application with host view, user
+ *              view, and moderator view. Up to five people are queued
+ *              by the moderator, who can decided whether to allow user
+ *              to broadcast his/her signal.          
+ * Website:     http://tokshow.opentok.com
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        August 2011
+ * 
+ */
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: #004563;
+	font-size: 24px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFF4C6;
+}
+.kick_button {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+#left_speaker {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: #FF8620;
+}
+#left_speaker_container {
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 25px;
+}
+#main_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#me_container {
+	float: right;
+	margin-right: 100px;	
+}
+#me_text {
+	display:none;
+}
+#publishLink {
+	display:block;
+}
+#right_speaker_container {
+	float: right;
+	height:200px;
+	background-color: #FF8620;
+}
+#right_speaker_container_big {
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 25px;
+}
+.speaker_container {
+	position: relative;
+	width: 300px;
+	height: 250px;
+}
+#stage_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 300px;
+	padding-top: 50px;
+}
+.queue_cam {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: green;
+	display:none;
+}
+#queue_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 200px;
+	background-color: grey;
+}
+.queue_post {
+	position: relative;
+	float: left;
+	margin-left: 25px;
+	width: 150px;
+	height: 200px;
+	background-color: red;
+}
+#unpublishLink {
+	display:none;
+}

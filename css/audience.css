@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+/*
+ * Project:     TokPanel
+ * Description: Talk show format web application with host view, user
+ *              view, and moderator view. Up to five people are queued
+ *              by the moderator, who can decided whether to allow user
+ *              to broadcast his/her signal.          
+ * Website:     http://tokshow.opentok.com
+ * 
+ * Author:      Ezra Velazquez
+ * Website:     http://ezraezraezra.com
+ * Date:        August 2011
+ * 
+ */
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: #004563;
+	font-size: 24px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFF4C6;
+}
+#just_listening {
+	position: relative;
+	width: 860px;
+	height: 50px;
+	padding: 20px;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	border: 2px solid #FF8620;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	float: left;
+}	
+.kick_button {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+#left_speaker {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: #FF8620;
+}
+#left_speaker_container {
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 25px;
+}
+#main_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#me_container {
+	float: right;
+	margin-right: 100px;
+}
+#me_text {
+	display:none;
+}
+#on_stage_message {
+	position: relative;
+	width: 860px;
+	height: 25px;
+	padding: 20px;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	border: 2px solid #FF8620;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+	float: left;
+}
+.queue_cam {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	display:none;
+}
+#queue_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 200px;
+	background-color: grey;
+}
+.queue_messages {
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 250px;
+	border-radius:25px;
+	-moz-border-radius:25px;	
+	margin-left: 100px;
+	padding:20px;
+	border: 2px solid #FF8620;
+}
+.queue_post {
+	position: relative;
+	float: left;
+	margin-left: 25px;
+	width: 150px;
+	height: 200px;
+	background-color: red;
+}
+#queue_warning {
+	display: none;
+}
+#right_speaker_container {
+	float: right;
+	height:200px;
+	background-color: #FF8620;
+}
+#right_speaker_container_big {
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 25px;
+}
+#stage_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 310px;
+	padding-top: 20px;
+	border: 2px solid;
+	margin-top:50px;
+}
+.speaker_container {
+	position: relative;
+	width: 300px;
+	height: 250px;
+}	

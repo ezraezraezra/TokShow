@@ -5,14 +5,14 @@
  * Date:        July 2011
  *
  * Title:       TokShow        http://tokshow.opentok.com
- * Description: Talkshow format web application with host view, user
+ * Description: Talk show format web application with host view, user
  *              view, and moderator view. Up to five people are queued
  *              by the moderator, who can decided whether to allow user
  *              to broadcast his/her signal.
  *
  * Tech:        AJAX, CSS, CSS3, HTML, JavaScript, JSON, jQuery, 
  *              MySQL, OpenTok API, PHP
- * Last Update: August 18th, 2011
+ * Last Update: August 24th, 2011
  ***********************************************************************/
  
  NOTE: *** 3rd PARTY LIBRARIES HAVE BEEN OMITTED FROM THE PUBLIC REPO ***
@@ -20,4 +20,3 @@
  Libraries Omitted:  OpenTok     http://www.tokbox.com
                      jQuery      http://jquery.com
                      
- NOTE: *** MORE CLEANING OF CODE TO COME AFTER FINISHING OTHER DEVELOPMENT PROJECT ***

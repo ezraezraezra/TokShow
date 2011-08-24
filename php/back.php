@@ -1,7 +1,7 @@
 <?php
 header('Content-type: application/json; charset=utf-8');
 require "info.php";
-require 'sdk/OpenTokSDK.php';
+require '../sdk/OpenTokSDK.php';
 /*
  * Author: Ezra Velazquez
  */
